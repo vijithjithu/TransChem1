@@ -1,3 +1,11 @@
+# TransChem: An Ensemble Framework for Polymer Property Prediction Using Transformers and Cheminformatics Descriptors
+
+
+
+### Vijith Parambil<sup>1</sup>, Hritik Goyal<sup>1</sup>, Ujjwal Tripati<sup>1</sup>, Rohit Batra<sup>1*</sup>
+##### <sup>1</sup> Department of Metallurgical and Materials Engineering, Indian Institute of Technology Madras, Chennai 600036, India
+
+
 # TransChem
 
 We have developed GPR, Trnspolymer and TransChem files for 10 different polymer datasets. 
