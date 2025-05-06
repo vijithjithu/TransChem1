@@ -15,5 +15,6 @@ All datasets used in this study are stored in the "Data" directory. For each pro
 - `*_RFE` – the refined feature set obtained through Recursive Feature Elimination (RFE), which serves as input to the TransChem model
 
 The "Models" directory contains individual subdirectories for each property being modeled. Each subdirectory includes a .yaml file (prefixed with "config") that specifies the hyperparameters and data locations used for the TransChem model. Additionally, a .json file lists the selected features after performing Recursive Feature Elimination (RFE). The TransChem code file is also included in each property-specific directory, containing the implementation details for the model.
+The third main directory is "common_files" which has the essential libraries for polymer SMILES tokenization.
 
 
