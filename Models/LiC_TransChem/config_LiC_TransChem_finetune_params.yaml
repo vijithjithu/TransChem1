@@ -6,8 +6,8 @@ aug_flag: True
 model_indicator: 'pretrain'                        # whether to use pretrained model
 aug_indicator:    5                                  # number of augmentation per SMILES. If no limitation, assign the indicator with None (leave it blank).
 
-vocab_sup_file: 'data/vocab/vocab_sup_PE_II.csv'                          # supplementary vocab file path
-dataset_file: 'data/new_feat_Li.csv'                                          # dataset_file path                    
+vocab_sup_file: '/workspaces/TransChem1/Data/LiC/vocab_sup_LiC.csv'                          # supplementary vocab file path
+dataset_file: '/workspaces/TransChem1/Data/LiC/LiC_RFE.csv'                                          # dataset_file path                    
 model_path: 'ckpt/pretrain.pt'                                            # pretrain model path
 save_path: 'ckpt/PE_II_train.pt'                     # checkpoint path
 best_model_path: 'ckpt/PE_II_best_model.pt'          # best model save path

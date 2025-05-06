@@ -550,7 +550,7 @@ def main(multitask_config):
 
 if __name__ == "__main__":
 
-    multitask_config = yaml.load(open("config_multi_cheminfo.yaml", "r"), Loader=yaml.FullLoader)
+    multitask_config = yaml.load(open("config_Multi_electronic_TransChem_finetune.yaml", "r"), Loader=yaml.FullLoader)
     print(multitask_config)
 
     """Device"""
