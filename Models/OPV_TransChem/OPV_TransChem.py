@@ -237,7 +237,7 @@ def test(model, loss_fn, train_dataloader, test_dataloader, device, scaler_targe
 
 def main(finetune_config):
 
-    f = open('OPV.json')
+    f = open('OPV_chem_feature_names.json')
     feats_to_norm = json.load(f)
     best_r2 = 0.0           # monitor the best r^2 in the run
     seed= finetune_config['fold_seed']
@@ -472,7 +472,7 @@ def main(finetune_config):
 
 if __name__ == "__main__":
 
-    finetune_config = yaml.load(open("config_opv_cheminfo_dp_32emb_0.01_80.yaml", "r"), Loader=yaml.FullLoader)
+    finetune_config = yaml.load(open("config_OPV_TransChem_finetune_params.yaml", "r"), Loader=yaml.FullLoader)
     print(finetune_config)
 
     """Device"""

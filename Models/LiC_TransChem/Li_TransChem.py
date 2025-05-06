@@ -493,7 +493,7 @@ def main(finetune_config):
 if __name__ == "__main__":
 
     finetune_config = yaml.load(
-        open("config_new_feat.yaml", "r"), Loader=yaml.FullLoader)
+        open("config_LiC_TransChem_finetune_params.yaml", "r"), Loader=yaml.FullLoader)
     print(finetune_config)
 
     """Device"""
