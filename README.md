@@ -1,4 +1,4 @@
-# TransChem: An Ensemble Framework for Polymer Property Prediction Using Transformers and Cheminformatics Descriptors
+# TransChem: A Hybrid Transformer and Cheminformatics Based Framework for Enhanced Polymer Informatics
 
 
 
