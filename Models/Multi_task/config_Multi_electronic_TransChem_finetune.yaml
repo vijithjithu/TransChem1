@@ -5,8 +5,8 @@ model_indicator: 'pretrain'                        # whether to use pretrained m
 aug_indicator:   5                           # number of augmentation per SMILES. If no limitation, assign the indicator with None (leave it blank).
 
 
-train_file: '../data/rdkit_multi/multi_rfe.csv'                   # train file path
-test_file: '../data/rdkit_multi/multi_rfe.csv'                     # test file path if cross-validation is not used
+train_file: '/workspaces/TransChem1/Data/Multi-task/Electronic_multi_task_RFE.csv'                   # train file path
+test_file: '/workspaces/TransChem1/Data/Multi-task/Electronic_multi_task_RFE.csv'                     # test file path if cross-validation is not used
 model_path: '../ckpt/pretrain.pt'                      # pretrain model path
 save_path: '../ckpt/multi+cheminfo/Egc_train.pt'                     # checkpoint path
 best_model_path: '../ckpt/multi+cheminfo/Egc_best_model.pt'          # best model save path

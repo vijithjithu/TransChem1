@@ -558,7 +558,7 @@ def main(multitask_config):
 
 if __name__ == "__main__":
 
-    multitask_config = yaml.load(open("config_multi_nc_eps.yaml", "r"), Loader=yaml.FullLoader)
+    multitask_config = yaml.load(open("config_Multi_optical_TransChem_finetune_params.yaml", "r"), Loader=yaml.FullLoader)
     print(multitask_config)
 
     """Device"""
