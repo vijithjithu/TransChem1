@@ -19,6 +19,7 @@ Each subdirectory includes a
 - .yaml file (prefixed with "config") that specifies the hyperparameters and data locations used for the TransChem model.
 - .json file lists the selected features after performing Recursive Feature Elimination (RFE).
 - .py file contains the implementation code for the TransChem model.
+  
 The third main directory is "common_files" which has the essential libraries for
 - Polymer SMILES tokenization
 - Data augmentation.
